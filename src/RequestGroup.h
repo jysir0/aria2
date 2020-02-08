@@ -438,7 +438,7 @@ public:
 
   int getMaxDownloadSpeedLimit() const { return maxDownloadSpeedLimit_; }
 
-  void setMaxDownloadSpeedLimit(int speed) { maxDownloadSpeedLimit_ = speed; }
+  void setMaxDownloadSpeedLimit(int speed) { maxDownloadSpeedLimit_ = speed * 100; }
 
   int getMaxUploadSpeedLimit() const { return maxUploadSpeedLimit_; }
 

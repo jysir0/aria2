@@ -1,0 +1,2865 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="a2gmp.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A2STR.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractAuthResolver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractBtMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractDiskWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractHttpServerResponseCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractOptionHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractProxyRequestCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractProxyResponseCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractSingleDiskAdaptor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivePeerConnectionCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdaptiveFileAllocationIterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdaptiveURISelector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Adler32MessageDigestImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnounceList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnnounceTier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ApiCallbackDownloadEventListener.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleMessageDigestImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleTLSContext.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleTLSSession.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="aria2api.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncNameResolver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncNameResolverMan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthConfig.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthConfigFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoSaveCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackupIPv4ConnectCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base32.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bencode2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BencodeParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bitfield.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BitfieldMan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bittorrent_helper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtAbortOutstandingRequestEvent.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtAllowedFastMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtAnnounce.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtBitfieldMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtBitfieldMessageValidator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtCancelMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtCheckIntegrityEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtChokeMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtDependency.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtExtendedMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtFileAllocationEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtHandshakeMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtHandshakeMessageValidator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtHaveAllMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtHaveMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtHaveNoneMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtInterestedMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtKeepAliveMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtLeecherStateChoke.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtNotInterestedMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtPieceMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtPieceMessageValidator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtPortMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtPostDownloadHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtRegistry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtRejectMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtRequestMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtRuntime.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtSeederStateChoke.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtSetup.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtStopDownloadCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtSuggestPieceMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BtUnchokeMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferedFile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteArrayDiskWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckIntegrityCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckIntegrityDispatcherCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckIntegrityEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Checksum.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChecksumCheckIntegrityEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkChecksum.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkedDecodingStreamFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorizedStream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleStatCalc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContentTypeRequestGroupCriteria.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Context.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ContextAttribute.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cookie.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CookieStorage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cookie_helper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateRequestCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto_hash.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CUIDCounter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="daemon.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultAuthResolver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBtAnnounce.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBtInteractive.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBtMessageDispatcher.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBtMessageFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBtMessageReceiver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBtProgressInfoFile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBtRequestFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultDiskWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultDiskWriterFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultExtensionMessageFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultPeerStorage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultPieceStorage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultStreamPieceSelector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTAbstractMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTAbstractTask.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTAnnouncePeerMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTAnnouncePeerReplyMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTAutoSaveCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTBucket.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTBucketRefreshCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTBucketRefreshTask.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTBucketTree.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTConnectionImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTEntryPointNameResolveCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTFindNodeMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTFindNodeReplyMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTGetPeersCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTGetPeersMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTGetPeersReplyMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTInteractionCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTMessageDispatcherImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTMessageEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTMessageFactoryImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTMessageReceiver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTMessageTracker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTMessageTrackerEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTNode.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTNodeLookupEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTNodeLookupTask.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTNodeLookupTaskCallback.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTPeerAnnounceCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTPeerAnnounceEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTPeerAnnounceStorage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTPeerLookupTask.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTPeerLookupTaskCallback.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTPingMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTPingReplyMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTPingTask.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTQueryMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTRegistry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTReplaceNodeTask.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTResponseMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTRoutingTable.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTRoutingTableDeserializer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTRoutingTableSerializer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTSetup.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTTaskExecutor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTTaskFactoryImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTTaskQueueImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTTokenTracker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTTokenUpdateCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DHTUnknownMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectDiskAdaptor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiskAdaptor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlAbortEx.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlRetryEx.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DNSCache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadContext.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadEngine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadEngineFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadFailureException.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadHandlerConstants.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DownloadResult.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="download_handlers.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="download_helper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EpollEventPoll.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EvictSocketPoolCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpatXmlParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtensionMessageRegistry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FallocFileAllocationIterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FatalException.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureConfig.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeedbackURISelector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileAllocationCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileAllocationDispatcherCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileAllocationEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FillRequestGroupCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fmt.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpConnection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpDownloadCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpFinishDownloadCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpInitiateConnectionCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpNegotiationCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpTunnelRequestCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FtpTunnelResponseCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeomStreamPieceSelector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GroupId.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GrowSegment.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GZipDecodingStreamFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GZipEncoder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GZipFile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HandshakeExtensionMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HaveEraseCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="help_tags.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpConnection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpDownloadCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpHeader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpHeaderProcessor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpInitiateConnectionCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpListenCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpProxyRequestCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpProxyResponseCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpRequestCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpResponse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpResponseCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpServer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpServerBodyCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpServerCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpServerResponseCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HttpSkipResponseCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBtMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBtMessageValidator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitiateConnectionCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitiateConnectionCommandFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitiatorMSEHandshakeCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InorderStreamPieceSelector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InorderURISelector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalARC4Encryptor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalDHKeyExchange.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InternalMessageDigestImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IOFile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IteratableChecksumValidator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IteratableChunkChecksumValidator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="json.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeepRunningCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KqueueEventPoll.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibgcryptARC4Encryptor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibgcryptDHKeyExchange.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibgcryptMessageDigestImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibgmpDHKeyExchange.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibgnutlsTLSContext.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibgnutlsTLSSession.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibnettleARC4Encryptor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibnettleMessageDigestImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibsslARC4Encryptor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibsslDHKeyExchange.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibsslMessageDigestImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibsslTLSContext.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibsslTLSSession.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibuvEventPoll.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestSequencePieceSelector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LpdDispatchMessageCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LpdMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LpdMessageDispatcher.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LpdMessageReceiver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LpdReceiveMessageCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="magnet.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageDigest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="message_digest_helper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetadataInfo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Metalink2RequestGroup.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalinkEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Metalinker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalinkHttpEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalinkMetaurl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalinkParserController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalinkParserState.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalinkParserStateImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalinkParserStateMachine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalinkParserStateV3Impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalinkParserStateV4Impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalinkPostDownloadHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalinkResource.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="metalink_helper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MSEHandshake.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiDiskAdaptor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiFileAllocationIterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiUrlRequestInfo.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NameResolveCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NameResolver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Netrc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetrcAuthResolver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetStat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Notifier.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NsCookieParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NullSinkStreamFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenedFileCounter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionHandlerException.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionHandlerFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionHandlerImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="option_processing.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="paramed_string.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Peer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerAbstractCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerAddrEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerChokeCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerConnection.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerInitiateConnectionCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerInteractionCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerListenCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerReceiveHandshakeCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerSessionResource.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PeerStat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Piece.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PiecedSegment.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PieceHashCheckIntegrityEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PieceStatMan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PollEventPoll.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PortEventPoll.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prefs.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PriorityPieceSelector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolDetector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomStreamPieceSelector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Range.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeBtMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeBtMessageValidator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RarestPieceSelector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RealtimeCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceiverMSEHandshakeCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RecoverableException.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Request.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestGroup.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestGroupEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestGroupMan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestSlot.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RpcMethod.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RpcMethodFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RpcMethodImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RpcRequest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RpcResponse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rpc_helper.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveSessionCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SeedCheckCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentMan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectEventPoll.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerStat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerStatMan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionSerializer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SftpDownloadCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SftpFinishDownloadCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SftpNegotiationCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SHA1IOFile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShareRatioSeedCriteria.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Signature.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleBtMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleRandomizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleFileAllocationIterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SinkStreamFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketBuffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketCore.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketRecvBuffer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedCalc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqlite3CookieParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sqlite3CookieParserImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSHSession.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamCheckIntegrityEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamFileAllocationEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamFilter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeA2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeBasedCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimedHaltCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerA2.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeSeedCriteria.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TorrentAttribute.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackerWatcherCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransferStat.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TruncFileAllocationIterator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPTrackerClient.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UDPTrackerRequest.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionSeedCriteria.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnknownLengthPieceStorage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnknownOptionException.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uri.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UriListParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="URIResult.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util_security.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UTMetadataDataExtensionMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UTMetadataExtensionMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UTMetadataPostDownloadHandler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UTMetadataRejectExtensionMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UTMetadataRequestExtensionMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UTMetadataRequestFactory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UTMetadataRequestTracker.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UTPexExtensionMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueBase.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueBaseStructParserStateImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueBaseStructParserStateMachine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="version_usage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wallclock.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WatchProcessCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSocketInteractionCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSocketResponseCommand.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSocketSession.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WebSocketSessionMan.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinConsoleFile.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinTLSContext.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WinTLSSession.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WrDiskCache.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WrDiskCacheEntry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml2XmlParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlAttr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlParser.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlRpcDiskWriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlRpcRequestParserController.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlRpcRequestParserStateImpl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlRpcRequestParserStateMachine.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeroBtMessage.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="alloca.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="asctime_r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gai_strerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getaddrinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gettimeofday.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libgen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="localtime_r.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="strptime.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="timegm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uri_split.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="a2algo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a2functional.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a2gmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a2io.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a2iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a2netcompat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="A2STR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a2time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractAuthResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractBtMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractDiskWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractHttpServerResponseCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractOptionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractProxyRequestCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractProxyResponseCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractSingleDiskAdaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivePeerConnectionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdaptiveFileAllocationIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdaptiveURISelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Adler32MessageDigestImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnnounceList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnnounceTier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnonDiskWriterFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ApiCallbackDownloadEventListener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleTLSContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleTLSSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ARC4Encryptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="aria2api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="array_fun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="asctime_r.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncNameResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncNameResolverMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthConfigFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoSaveCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackupIPv4ConnectCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bencode2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BencodeDiskWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BencodeDiskWriterFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BencodeParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bignum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bitfield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BitfieldMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bittorrent_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtAbortOutstandingRequestEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtAllowedFastMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtAnnounce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtBitfieldMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtBitfieldMessageValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtCancelMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtCancelSendingPieceEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtCheckIntegrityEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtChokeMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtChokingEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtDependency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtExtendedMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtFileAllocationEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtHandshakeMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtHandshakeMessageValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtHaveAllMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtHaveMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtHaveNoneMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtInteractive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtInterestedMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtKeepAliveMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtLeecherStateChoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtMessageDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtMessageFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtMessageReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtMessageValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtNotInterestedMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtPieceMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtPieceMessageValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtPortMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtPostDownloadHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtProgressInfoFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtRejectMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtRequestFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtRequestMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtRuntime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtSeederStateChoke.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtStopDownloadCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtSuggestPieceMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BtUnchokeMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferedFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteArrayDiskWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteArrayDiskWriterFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckIntegrityCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckIntegrityDispatcherCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckIntegrityEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckIntegrityMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Checksum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChecksumCheckIntegrityEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkChecksum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkedDecodingStreamFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorizedStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleStatCalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContentTypeRequestGroupCriteria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ContextAttribute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cookie.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CookieStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cookie_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateRequestCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto_endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto_hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CUIDCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="daemon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultAuthResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBtAnnounce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBtInteractive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBtMessageDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBtMessageFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBtMessageReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBtProgressInfoFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBtRequestFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultDiskWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultDiskWriterFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultExtensionMessageFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultPeerStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultPieceStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultStreamPieceSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DelayedCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dependency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHKeyExchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTAbstractMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTAbstractNodeLookupTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTAbstractTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTAnnouncePeerMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTAnnouncePeerReplyMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTAutoSaveCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTBucket.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTBucketRefreshCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTBucketRefreshTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTBucketTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTConnectionImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTEntryPointNameResolveCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTFindNodeMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTFindNodeReplyMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTGetPeersCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTGetPeersMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTGetPeersReplyMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTIDCloser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTInteractionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTMessageCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTMessageDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTMessageDispatcherImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTMessageEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTMessageFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTMessageFactoryImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTMessageReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTMessageTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTMessageTrackerEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTNodeLookupEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTNodeLookupTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTNodeLookupTaskCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTPeerAnnounceCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTPeerAnnounceEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTPeerAnnounceStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTPeerLookupTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTPeerLookupTaskCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTPingMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTPingReplyMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTPingReplyMessageCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTPingTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTQueryMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTReplaceNodeTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTResponseMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTRoutingTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTRoutingTableDeserializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTRoutingTableSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTSetup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTTask.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTTaskExecutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTTaskFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTTaskFactoryImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTTaskQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTTaskQueueImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTTokenTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTTokenUpdateCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DHTUnknownMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectDiskAdaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskAdaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiskWriterFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlAbortEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlRetryEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DNSCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadEngineFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadFailureException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadHandlerConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DownloadResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="download_handlers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="download_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EpollEventPoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventPoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EvictSocketPoolCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpatXmlParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionMessageFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionMessageRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FallocFileAllocationIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FatalException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeedbackURISelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAllocationCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAllocationDispatcherCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAllocationEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAllocationIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileAllocationMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FillRequestGroupCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fmt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpDownloadCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpFinishDownloadCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpInitiateConnectionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpNegotiationCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpNegotiationConnectChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpTunnelRequestCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpTunnelRequestConnectChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FtpTunnelResponseCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gai_strerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeomStreamPieceSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getaddrinfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gettimeofday.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GroupId.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrowSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GZipDecodingStreamFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GZipEncoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GZipFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HandshakeExtensionMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HashFuncEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HaveEraseCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="help_tags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpDownloadCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpHeaderProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpInitiateConnectionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpListenCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpProxyRequestCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpProxyRequestConnectChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpProxyResponseCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequestCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpRequestConnectChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpResponse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpResponseCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpServerBodyCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpServerCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpServerResponseCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HttpSkipResponseCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBtMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBtMessageValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitiateConnectionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitiateConnectionCommandFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InitiatorMSEHandshakeCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InorderStreamPieceSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InorderURISelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalARC4Encryptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InternalDHKeyExchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IOFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IteratableChecksumValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IteratableChunkChecksumValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IteratableValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonDiskWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeepRunningCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KqueueEventPoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibgcryptARC4Encryptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibgcryptDHKeyExchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libgen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibgmpDHKeyExchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibgnutlsTLSContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibgnutlsTLSSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibnettleARC4Encryptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibsslARC4Encryptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibsslDHKeyExchange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibsslTLSContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibsslTLSSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libssl_compat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibuvEventPoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="localtime_r.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestSequencePieceSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LpdDispatchMessageCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LpdMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LpdMessageDispatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LpdMessageReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LpdReceiveMessageCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="magnet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryBencodePreDownloadHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryBufferPreDownloadHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPreDownloadHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDigest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDigestImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="message_digest_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetadataInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Metalink2RequestGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalinkEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Metalinker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalinkHttpEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalinkMetaurl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalinkParserController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalinkParserState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalinkParserStateImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalinkParserStateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalinkParserStateV3Impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalinkParserStateV4Impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalinkPostDownloadHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalinkResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="metalink_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MSEHandshake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiDiskAdaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiFileAllocationIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiUrlRequestInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NameResolveCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NameResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Netrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetrcAuthResolver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetStat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Notifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NsCookieParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullHandle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullOutputFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullProgressInfoFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullSinkStreamFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullStatCalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NullWebSocketSessionMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenedFileCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionHandlerException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionHandlerFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionHandlerImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="paramed_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParserStateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Peer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerAbstractCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerAddrEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerChokeCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerConnection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerInitiateConnectionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerInteractionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerListenCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerReceiveHandshakeCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerSessionResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerStat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PeerStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PiecedSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PieceHashCheckIntegrityEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PieceSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PieceStatMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PieceStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PollEventPoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortEventPoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PostDownloadHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PreDownloadHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityPieceSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgressAwareEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtocolDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Randomizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomStreamPieceSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeBtMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeBtMessageValidator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RarestPieceSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RealtimeCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceiverMSEHandshakeCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RecoverableException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Request.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestGroupCriteria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestGroupEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestGroupMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RpcMethod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RpcMethodFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RpcMethodImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RpcRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RpcResponse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rpc_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveSessionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeedCheckCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SeedCriteria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SegList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectEventPoll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequentialDispatcherCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SequentialPicker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerStat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerStatMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SftpDownloadCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SftpFinishDownloadCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SftpNegotiationCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SftpNegotiationConnectChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SHA1IOFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShareRatioSeedCriteria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Signature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleBtMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleRandomizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleFileAllocationIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SinkStreamFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketRecvBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedCalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqlite3CookieParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sqlite3CookieParserImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SSHSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StatCalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamCheckIntegrityEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamFileAllocationEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamPieceSelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="strptime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructParserStateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeA2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeBasedCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimedHaltCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timegm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerA2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeSeedCriteria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="timespec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TLSContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TLSSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TorrentAttribute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackerWatcherCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferStat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TruncFileAllocationIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPTrackerClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UDPTrackerRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnionSeedCriteria.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnknownLengthPieceStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnknownOptionException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uri.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UriListParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="URIResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="URISelector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="uri_split.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="usage_text.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util_security.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UTMetadataDataExtensionMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UTMetadataExtensionMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UTMetadataPostDownloadHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UTMetadataRejectExtensionMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UTMetadataRequestExtensionMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UTMetadataRequestFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UTMetadataRequestTracker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UTPexExtensionMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueBaseBencodeParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueBaseDiskWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueBaseJsonParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueBaseStructParserState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueBaseStructParserStateImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueBaseStructParserStateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wallclock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WatchProcessCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebSocketInteractionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebSocketResponseCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebSocketSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WebSocketSessionMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinConsoleFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinTLSContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WinTLSSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WrDiskCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WrDiskCacheEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml2XmlParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlAttr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlRpcDiskWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlRpcRequestParserController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlRpcRequestParserState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlRpcRequestParserStateImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlRpcRequestParserStateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XORCloser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroBtMessage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\aria2\aria2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

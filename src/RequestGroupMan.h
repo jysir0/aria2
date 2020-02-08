@@ -293,7 +293,7 @@ public:
 
   void setMaxOverallDownloadSpeedLimit(int speed)
   {
-    maxOverallDownloadSpeedLimit_ = speed;
+    maxOverallDownloadSpeedLimit_ = speed * 100;
   }
 
   int getMaxOverallDownloadSpeedLimit() const
